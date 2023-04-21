@@ -14,4 +14,6 @@ docker exec -it unibench-build bash
 bash ~/build_all.sh
 ```
 
+# NOTE
 
+`swftools` will fail in O0.
