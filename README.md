@@ -8,10 +8,10 @@ Build unibench targets with different compilers and optimization levels.
 ```bash
 docker pull zjuchenyuan/base
 docker run -dit --name unibench-build zjuchenyuan/base
-docker cp build_all.sh /root/
+docker cp build_all.sh /
 docker exec -it unibench-build bash
 # in docker container unibench-build
-bash ~/build_all.sh
+bash build_all.sh
 ```
 
 # NOTE
